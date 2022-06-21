@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+    box-sizing: border-box;
+}
+
+        /* Topbar CSS Start Here */
+.topbar{
+    height: 50px;
+    background-color: #21243d;
+    padding-top: 12px;
+    color: #ffffff;
+}
+.details{
+    float: left;
+    margin-left: 50px;
+}
+.social{
+    color: #ffffff;
+    float: right;
+    margin-right: 50px;
+}
+        /* Topbar CSS end Here */
+            
+        /* Header CSS Start Here */
+.header{
+    background-image: url('../images/header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.navbar-brand img{
+    margin-left: 50px;
+}
+.searchbar a{
+	padding: 0 !important;
+    position: absolute;
+    right: 55px;
+	top: 20px;
+	color: #21243d;
+    font-size: 25px;
+}
+.searchbar a:hover{
+    color: #ffd17e;
+	transition: 1s;
+}
+.searchbar input{
+    width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+	margin-left: 25px;
+    margin-right: 30px;
+	border: none;
+	background-color: white;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.nav-item a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 40px !important;
+}
+.nav-item a:hover{
+    color: #21243d;
+}
+.header-text h1{
+    color: white;
+    font-size: 130px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 130px;
+}
+.button-1{
+    background-color: #21243d;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+}
+.button-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 40px;
+}
+.header-text p{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+
+        /* Header CSS End Here */
+
+        /* Banner CSS Start Here */
+.banner{
+    background-image: url('../images/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.b-text h1{
+    font-size: 65px;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+.b-text p{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
+.b-image{
+    margin-top: 30px;
+}
+.b-image h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.b-image p{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.button-2{
+    background-color: #ffd17e;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-left: 550px;
+    border: none;
+    margin-bottom: 50px;
+}
+.button-2 a{
+    text-decoration: none;
+    color: #21243d;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 40px;
+}
+        /* Banner CSS End Here */
+
+        /* Feature CSS Start Here */
+.feature{
+    background-image: url('../images/feature-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f-info{
+    margin: 150px 50px 150px 30px;
+}
+.info-info h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #21243d;
+    margin-top: 200px;
+    margin-left:30px;
+}
+.info-info p{
+    color: #21243d;
+    font-size: 20px;
+    margin-left:30px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.button-3{
+    background-color: #21243d;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    margin: 50px;
+    margin-left: 30px;
+
+}
+.button-3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 30px 40px;
+}
+         /* Feature CSS end Here */
+
+        /* Statistics CSS start Here */
+.stat{
+    background-image: url('../images/stat-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+        /* Statistics CSS end Here */
+.stat-text h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+.stat-text p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.circle{
+    border-radius: 50%;
+    border: solid white;
+    width: 250px;  
+    margin-bottom: 200px;
+}
+.circle h1{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 75px;
+    margin-top: 30px;
+}
+.circle p{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+         /* Info CSS Section Start here */
+.info{
+    background-image: url('../images/feature2-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-info h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #21243d;
+    margin-top: 200px;
+    margin-left:30px;
+}
+.text-info p{
+    color: #21243d;
+    font-size: 20px;
+    margin-left:30px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.button-4{
+    background-color: #21243d;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    margin: 50px;
+    margin-left: 30px;
+}
+.button-4 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 30px 40px;
+}
+.info-pic img{
+    margin: 150px 50px 150px 30px;
+}
+        /* Info CSS Section End here */
+
+        /* Testimonial CSS Start here */
+.testimonial{
+    background-image: url('../images/testimonial-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.test-image{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.blockquote p{
+    color: #ffffff;
+    font-size: 30px;
+}
+.blockquote-footer{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 200px;
+}
+        /* Testimonial CSS End here */
+
+        /* Subscribe CSS Start here */
+.subscribe{
+    background-image: url('../images/subscribe-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.subscribe-element h2{
+    color: #21243d;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+}
+.subscribe-element p{
+    color: #21243d;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.sub-sec input{
+    width: 450px;
+    margin-bottom: 300px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 100px;
+    padding: 12px 25px;
+    position: relative;
+}
+.button-5{
+    border-radius: 30px;
+    padding: 12px 25px;
+    background-color: #21243d;
+    border: none;
+    position: absolute;
+    top: 511px;
+    left: 790px;
+}
+.button-5 a{
+    text-decoration: none;
+    color: white;
+}
+
+        /* Subscribe CSS End here */
+
+        /* Footer CSS Start Here */
+.footer{
+    background-color: #21243d;
+}       
+.title h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.title p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    color: white;
+}
+.title ul{
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+.title li{
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+}
+.title li a{
+    color: white;
+    padding: 10px;
+}
+.title li a:hover{
+    color: #ffd17e;
+    transition: .5s;
+}
+.about h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.about li{
+    list-style: none;
+    font-size: 20px;
+}
+.about li a{
+    color: white;
+    text-decoration: none;
+}
+.about li a:hover{
+    color: #ffd17e;
+    transition: .25s;
+}
+.service h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.service li{
+    list-style: none;
+    font-size: 20px;
+    text-align: justify;
+}
+.service li a{
+    color: white;
+    text-decoration: none;
+}
+.service li a:hover{
+    color: #ffd17e;
+    transition: .25s;
+}
+.others h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.others li{
+    list-style: none;
+    font-size: 20px;
+    text-align: justify;
+}
+.others li a{
+    color: white;
+    text-decoration: none;
+}
+.others li a:hover{
+    color: #ffd17e;
+    transition: .25s;
+}
+
+        /* Footer CSS End Here */
+
+        /* Footer Credit CSS Start Here */
+        
+.footer-credit{
+    background-color: #32375e;
+    padding: 10px;
+}
+        /* Footer Credit CSS End Here */
